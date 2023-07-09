@@ -1,0 +1,33 @@
+.input {
+  padding: 0 16px;
+  height: 50px;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  width: 300px;
+  border: 1px solid black;
+
+  &:focus{
+  border: 0;
+    outline: 2px solid #86cfc1;
+  }
+
+  &:disabled {
+    background: rgb(243, 243, 243);
+  }
+}
+
+.inputLabel {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.inputError {
+  border: 1px solid red;
+}
+
+.asterisk {
+  display: inline-block;
+  padding-left: 2px;
+  color: red;
+}
